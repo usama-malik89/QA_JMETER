@@ -1,0 +1,15 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1610532228559,177,Parent Controller,200,"Number of samples in transaction : 1, number of failing samples : 0",Group of 20 1-1,,true,,997,125,1,1,null,0,0,86
+1610532228559,177,HTTP Request,200,OK,Group of 20 1-1,text,true,,997,125,1,1,http://ghibliapi.herokuapp.com/,177,0,86
+1610532383879,278,Parent Controller,Non HTTP response code: java.net.URISyntaxException,"Number of samples in transaction : 2, number of failing samples : 1",Group of 20 1-1,,false,,2207,125,1,1,null,0,1,108
+1610532383879,278,Get,200,OK,Group of 20 1-1,text,true,,997,125,1,1,http://ghibliapi.herokuapp.com/,278,0,108
+1610532384157,0,Totoro by id,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in authority at index 7: http://\films\58611129-2dbc-4a81-a72f-77ddfc1b1b49/,Group of 20 1-1,text,false,,1210,0,1,1,http://\films\58611129-2dbc-4a81-a72f-77ddfc1b1b49/,0,0,0
+1610532386676,195,Parent Controller,Non HTTP response code: java.net.URISyntaxException,"Number of samples in transaction : 2, number of failing samples : 1",Group of 20 1-1,,false,,2207,125,1,1,null,0,0,92
+1610532386676,195,Get,200,OK,Group of 20 1-1,text,true,,997,125,1,1,http://ghibliapi.herokuapp.com/,195,0,92
+1610532386871,0,Totoro by id,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in authority at index 7: http://\films\58611129-2dbc-4a81-a72f-77ddfc1b1b49/,Group of 20 1-1,text,false,,1210,0,1,1,http://\films\58611129-2dbc-4a81-a72f-77ddfc1b1b49/,0,0,0
+1610532405382,192,Parent Controller,Non HTTP response code: java.net.URISyntaxException,"Number of samples in transaction : 2, number of failing samples : 1",Group of 20 1-1,,false,,2222,125,1,1,null,0,2,92
+1610532405383,192,Get,200,OK,Group of 20 1-1,text,true,,997,125,1,1,http://ghibliapi.herokuapp.com/,192,0,92
+1610532405576,0,Totoro by id,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 31: http://ghibliapi.herokuapp.com/\films\58611129-2dbc-4a81-a72f-77ddfc1b1b49,Group of 20 1-1,text,false,,1225,0,1,1,http://ghibliapi.herokuapp.com/\films\58611129-2dbc-4a81-a72f-77ddfc1b1b49,0,0,0
+1610532437257,313,Parent Controller,200,"Number of samples in transaction : 2, number of failing samples : 0",Group of 20 1-1,,true,,3272,292,1,1,null,0,2,116
+1610532437258,213,Get,200,OK,Group of 20 1-1,text,true,,997,125,1,1,http://ghibliapi.herokuapp.com/,213,0,116
+1610532437471,100,Totoro by id,200,OK,Group of 20 1-1,text,true,,2275,167,1,1,http://ghibliapi.herokuapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49,100,0,0

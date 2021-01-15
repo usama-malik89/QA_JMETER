@@ -1,0 +1,430 @@
+2021-01-14 12:57:56,202 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-01-14 12:57:56,217 INFO o.a.j.JMeter: Loading user properties from: D:\applications\apache-jmeter-5.4\bin\user.properties
+2021-01-14 12:57:56,217 INFO o.a.j.JMeter: Loading system properties from: D:\applications\apache-jmeter-5.4\bin\system.properties
+2021-01-14 12:57:56,221 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2021-01-14 12:57:56,221 INFO o.a.j.JMeter: Version 5.4
+2021-01-14 12:57:56,221 INFO o.a.j.JMeter: java.version=14.0.2
+2021-01-14 12:57:56,221 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2021-01-14 12:57:56,221 INFO o.a.j.JMeter: os.name=Windows 10
+2021-01-14 12:57:56,221 INFO o.a.j.JMeter: os.arch=amd64
+2021-01-14 12:57:56,221 INFO o.a.j.JMeter: os.version=10.0
+2021-01-14 12:57:56,222 INFO o.a.j.JMeter: file.encoding=Cp1252
+2021-01-14 12:57:56,222 INFO o.a.j.JMeter: java.awt.headless=true
+2021-01-14 12:57:56,222 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-01-14 12:57:56,222 INFO o.a.j.JMeter: Available Processors =12
+2021-01-14 12:57:56,227 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-01-14 12:57:56,227 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-01-14 12:57:56,227 INFO o.a.j.JMeter: JMeterHome=D:\applications\apache-jmeter-5.4
+2021-01-14 12:57:56,227 INFO o.a.j.JMeter: user.dir  =C:\Users\malik\Desktop\Work\jmeterTest
+2021-01-14 12:57:56,228 INFO o.a.j.JMeter: PWD       =C:\Users\malik\Desktop\Work\jmeterTest
+2021-01-14 12:57:56,231 INFO o.a.j.JMeter: IP: 192.168.1.105 Name: DESKTOP-BBKIOMD FullName: DESKTOP-BBKIOMD.home
+2021-01-14 12:57:56,234 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\malik\Desktop\Work\jmeterTest\HTML_Reports'
+2021-01-14 12:57:56,235 INFO o.a.j.s.FileServer: Default base='C:\Users\malik\Desktop\Work\jmeterTest'
+2021-01-14 12:57:56,236 INFO o.a.j.s.FileServer: Set new base='C:\Users\malik\Desktop\Work\jmeterTest'
+2021-01-14 12:57:56,313 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-01-14 12:57:56,323 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-01-14 12:57:56,325 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-01-14 12:57:56,327 INFO o.a.j.s.SaveService: Loading file: CRUD_TEST.jmx
+2021-01-14 12:57:56,370 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-14 12:57:56,370 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-14 12:57:56,370 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-14 12:57:56,370 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-14 12:57:56,370 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-01-14 12:57:56,370 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-01-14 12:57:56,386 INFO o.a.j.JMeter: Creating summariser <summary>
+2021-01-14 12:57:56,389 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2021-01-14 12:57:56,389 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: C:\Users\malik\Desktop\Work\jmeterTest\report01.csv
+2021-01-14 12:57:56,389 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: D:\applications\apache-jmeter-5.4\bin\reportgenerator.properties
+2021-01-14 12:57:56,389 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2021-01-14 12:57:56,392 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2021-01-14 12:57:56,393 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2021-01-14 12:57:56,394 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2021-01-14 12:57:56,394 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2021-01-14 12:57:56,394 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2021-01-14 12:57:56,394 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2021-01-14 12:57:56,394 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2021-01-14 12:57:56,394 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2021-01-14 12:57:56,394 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2021-01-14 12:57:56,396 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2021-01-14 12:57:56,397 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-01-14 12:57:56,397 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2021-01-14 12:57:56,397 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2021-01-14 12:57:56,397 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2021-01-14 12:57:56,397 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2021-01-14 12:57:56,397 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-01-14 12:57:56,397 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-01-14 12:57:56,397 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-01-14 12:57:56,397 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-01-14 12:57:56,398 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2021-01-14 12:57:56,398 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2021-01-14 12:57:56,398 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2021-01-14 12:57:56,398 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2021-01-14 12:57:56,398 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2021-01-14 12:57:56,398 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2021-01-14 12:57:56,401 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-01-14 12:57:56,401 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-01-14 12:57:56,401 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-01-14 12:57:56,407 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2021-01-14 12:57:56,407 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2021-01-14 12:57:56,585 INFO o.a.j.JMeter: Running test (1610629076584)
+2021-01-14 12:57:56,594 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Load Test
+2021-01-14 12:57:56,594 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Load Test.
+2021-01-14 12:57:56,594 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-01-14 12:57:56,594 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 100
+2021-01-14 12:57:56,621 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2021-01-14 12:57:56,621 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-01-14 12:57:56,695 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-100
+2021-01-14 12:57:56,795 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-99
+2021-01-14 12:57:56,895 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-98
+2021-01-14 12:57:56,996 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-97
+2021-01-14 12:57:57,095 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-96
+2021-01-14 12:57:57,196 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-95
+2021-01-14 12:57:57,212 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-BBKIOMD
+2021-01-14 12:57:57,216 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2021-01-14 12:57:57,217 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2021-01-14 12:57:57,217 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-01-14 12:57:57,217 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-01-14 12:57:57,217 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-01-14 12:57:57,296 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-94
+2021-01-14 12:57:57,395 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-93
+2021-01-14 12:57:57,495 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-92
+2021-01-14 12:57:57,595 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-91
+2021-01-14 12:57:57,695 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-90
+2021-01-14 12:57:57,795 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-89
+2021-01-14 12:57:57,895 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-88
+2021-01-14 12:57:57,995 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-87
+2021-01-14 12:57:58,095 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-86
+2021-01-14 12:57:58,195 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-85
+2021-01-14 12:57:58,295 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-84
+2021-01-14 12:57:58,395 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-83
+2021-01-14 12:57:58,495 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-82
+2021-01-14 12:57:58,595 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-81
+2021-01-14 12:57:58,703 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-80
+2021-01-14 12:57:58,797 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-79
+2021-01-14 12:57:58,906 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-78
+2021-01-14 12:57:59,000 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-77
+2021-01-14 12:57:59,108 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-76
+2021-01-14 12:57:59,201 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-75
+2021-01-14 12:57:59,295 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-74
+2021-01-14 12:57:59,403 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-73
+2021-01-14 12:57:59,494 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-72
+2021-01-14 12:57:59,603 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-71
+2021-01-14 12:57:59,698 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-70
+2021-01-14 12:57:59,808 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-69
+2021-01-14 12:57:59,903 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-68
+2021-01-14 12:57:59,996 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-67
+2021-01-14 12:58:00,105 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-66
+2021-01-14 12:58:00,198 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-65
+2021-01-14 12:58:00,238 INFO o.a.j.r.Summariser: summary +      1 in 00:00:04 =    0.3/s Avg:  2974 Min:  2974 Max:  2974 Err:     0 (0.00%) Active: 36 Started: 36 Finished: 0
+2021-01-14 12:58:00,304 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-64
+2021-01-14 12:58:00,399 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-63
+2021-01-14 12:58:00,495 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-62
+2021-01-14 12:58:00,604 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-61
+2021-01-14 12:58:00,694 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-60
+2021-01-14 12:58:00,795 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-59
+2021-01-14 12:58:00,895 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-58
+2021-01-14 12:58:00,995 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-57
+2021-01-14 12:58:01,094 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-56
+2021-01-14 12:58:01,195 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-55
+2021-01-14 12:58:01,295 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-54
+2021-01-14 12:58:01,395 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-53
+2021-01-14 12:58:01,495 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-52
+2021-01-14 12:58:01,595 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-51
+2021-01-14 12:58:01,694 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-50
+2021-01-14 12:58:01,795 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-49
+2021-01-14 12:58:01,895 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-48
+2021-01-14 12:58:01,995 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-47
+2021-01-14 12:58:02,095 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-46
+2021-01-14 12:58:02,195 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-45
+2021-01-14 12:58:02,295 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-44
+2021-01-14 12:58:02,395 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-43
+2021-01-14 12:58:02,495 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-42
+2021-01-14 12:58:02,595 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-41
+2021-01-14 12:58:02,695 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-40
+2021-01-14 12:58:02,794 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-39
+2021-01-14 12:58:02,894 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-38
+2021-01-14 12:58:02,994 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-37
+2021-01-14 12:58:03,095 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-36
+2021-01-14 12:58:03,194 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-35
+2021-01-14 12:58:03,294 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-34
+2021-01-14 12:58:03,395 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-33
+2021-01-14 12:58:03,494 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-32
+2021-01-14 12:58:03,594 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-31
+2021-01-14 12:58:03,695 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-30
+2021-01-14 12:58:03,794 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-29
+2021-01-14 12:58:03,894 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-28
+2021-01-14 12:58:03,996 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-27
+2021-01-14 12:58:04,095 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-26
+2021-01-14 12:58:04,194 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-25
+2021-01-14 12:58:04,294 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-24
+2021-01-14 12:58:04,395 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-23
+2021-01-14 12:58:04,494 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-22
+2021-01-14 12:58:04,594 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-21
+2021-01-14 12:58:04,695 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-20
+2021-01-14 12:58:04,795 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-19
+2021-01-14 12:58:04,894 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-18
+2021-01-14 12:58:04,994 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-17
+2021-01-14 12:58:05,094 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-16
+2021-01-14 12:58:05,195 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-15
+2021-01-14 12:58:05,295 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-14
+2021-01-14 12:58:05,394 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-13
+2021-01-14 12:58:05,499 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-12
+2021-01-14 12:58:05,595 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-11
+2021-01-14 12:58:05,695 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-10
+2021-01-14 12:58:05,794 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-9
+2021-01-14 12:58:05,894 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-8
+2021-01-14 12:58:05,994 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-7
+2021-01-14 12:58:06,095 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-6
+2021-01-14 12:58:06,194 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-5
+2021-01-14 12:58:06,294 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-4
+2021-01-14 12:58:06,396 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-3
+2021-01-14 12:58:06,494 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-2
+2021-01-14 12:58:06,594 INFO o.a.j.t.JMeterThread: Thread started: Load Test 1-1
+2021-01-14 12:58:09,547 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2021-01-14 12:58:09,547 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2021-01-14 12:58:22,493 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-40
+2021-01-14 12:58:22,872 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-39
+2021-01-14 12:58:22,872 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-39
+2021-01-14 12:58:23,182 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-38
+2021-01-14 12:58:23,182 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-38
+2021-01-14 12:58:23,412 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-89
+2021-01-14 12:58:23,412 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-89
+2021-01-14 12:58:23,413 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-90
+2021-01-14 12:58:23,413 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-90
+2021-01-14 12:58:23,416 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-37
+2021-01-14 12:58:23,416 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-37
+2021-01-14 12:58:23,465 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-36
+2021-01-14 12:58:23,465 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-36
+2021-01-14 12:58:23,756 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-35
+2021-01-14 12:58:23,756 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-35
+2021-01-14 12:58:23,773 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-88
+2021-01-14 12:58:23,773 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-88
+2021-01-14 12:58:23,773 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-34
+2021-01-14 12:58:23,774 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-34
+2021-01-14 12:58:24,159 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-33
+2021-01-14 12:58:24,159 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-33
+2021-01-14 12:58:24,312 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-32
+2021-01-14 12:58:24,312 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-32
+2021-01-14 12:58:24,403 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-87
+2021-01-14 12:58:24,403 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-87
+2021-01-14 12:58:24,406 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-31
+2021-01-14 12:58:24,406 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-31
+2021-01-14 12:58:25,917 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-30
+2021-01-14 12:58:25,917 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-30
+2021-01-14 12:58:26,493 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-29
+2021-01-14 12:58:26,493 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-29
+2021-01-14 12:58:26,813 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-28
+2021-01-14 12:58:26,813 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-28
+2021-01-14 12:58:26,815 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-86
+2021-01-14 12:58:26,815 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-86
+2021-01-14 12:58:27,187 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-26
+2021-01-14 12:58:27,187 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-26
+2021-01-14 12:58:27,214 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-85
+2021-01-14 12:58:27,214 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-85
+2021-01-14 12:58:27,217 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-27
+2021-01-14 12:58:27,217 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-27
+2021-01-14 12:58:27,488 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-25
+2021-01-14 12:58:27,488 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-25
+2021-01-14 12:58:27,506 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-24
+2021-01-14 12:58:27,506 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-24
+2021-01-14 12:58:27,811 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-84
+2021-01-14 12:58:27,812 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-84
+2021-01-14 12:58:27,815 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-23
+2021-01-14 12:58:27,815 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-23
+2021-01-14 12:58:28,097 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-21
+2021-01-14 12:58:28,097 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-21
+2021-01-14 12:58:28,098 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-22
+2021-01-14 12:58:28,098 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-22
+2021-01-14 12:58:29,613 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-83
+2021-01-14 12:58:29,613 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-83
+2021-01-14 12:58:29,615 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-20
+2021-01-14 12:58:29,616 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-20
+2021-01-14 12:58:30,146 INFO o.a.j.r.Summariser: summary +     99 in 00:00:30 =    3.3/s Avg: 13836 Min:  2968 Max: 24419 Err:     0 (0.00%) Active: 71 Started: 100 Finished: 29
+2021-01-14 12:58:30,146 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-82
+2021-01-14 12:58:30,146 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-82
+2021-01-14 12:58:30,146 INFO o.a.j.r.Summariser: summary =    100 in 00:00:34 =    3.0/s Avg: 13728 Min:  2968 Max: 24419 Err:     0 (0.00%)
+2021-01-14 12:58:30,146 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-81
+2021-01-14 12:58:30,146 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-81
+2021-01-14 12:58:30,148 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-19
+2021-01-14 12:58:30,148 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-19
+2021-01-14 12:58:30,524 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-18
+2021-01-14 12:58:30,524 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-18
+2021-01-14 12:58:30,915 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-17
+2021-01-14 12:58:30,915 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-17
+2021-01-14 12:58:31,138 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-16
+2021-01-14 12:58:31,139 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-16
+2021-01-14 12:58:31,291 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-15
+2021-01-14 12:58:31,291 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-15
+2021-01-14 12:58:31,324 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-14
+2021-01-14 12:58:31,324 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-14
+2021-01-14 12:58:31,600 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-13
+2021-01-14 12:58:31,600 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-13
+2021-01-14 12:58:31,920 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-12
+2021-01-14 12:58:31,920 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-12
+2021-01-14 12:58:31,987 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-11
+2021-01-14 12:58:31,988 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-11
+2021-01-14 12:58:33,406 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-10
+2021-01-14 12:58:33,406 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-10
+2021-01-14 12:58:33,407 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-79
+2021-01-14 12:58:33,407 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-79
+2021-01-14 12:58:33,408 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-80
+2021-01-14 12:58:33,408 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-80
+2021-01-14 12:58:33,409 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-78
+2021-01-14 12:58:33,409 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-78
+2021-01-14 12:58:33,409 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-77
+2021-01-14 12:58:33,409 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-77
+2021-01-14 12:58:33,410 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-76
+2021-01-14 12:58:33,410 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-76
+2021-01-14 12:58:33,411 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-75
+2021-01-14 12:58:33,411 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-75
+2021-01-14 12:58:33,411 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-74
+2021-01-14 12:58:33,411 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-74
+2021-01-14 12:58:33,770 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-9
+2021-01-14 12:58:33,771 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-9
+2021-01-14 12:58:34,208 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-73
+2021-01-14 12:58:34,209 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-73
+2021-01-14 12:58:34,209 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-72
+2021-01-14 12:58:34,209 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-72
+2021-01-14 12:58:34,212 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-8
+2021-01-14 12:58:34,212 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-8
+2021-01-14 12:58:34,215 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-71
+2021-01-14 12:58:34,215 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-71
+2021-01-14 12:58:34,498 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-70
+2021-01-14 12:58:34,498 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-70
+2021-01-14 12:58:34,498 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-69
+2021-01-14 12:58:34,499 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-69
+2021-01-14 12:58:34,499 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-68
+2021-01-14 12:58:34,499 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-68
+2021-01-14 12:58:34,503 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-7
+2021-01-14 12:58:34,503 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-7
+2021-01-14 12:58:34,837 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-67
+2021-01-14 12:58:34,837 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-67
+2021-01-14 12:58:34,837 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-66
+2021-01-14 12:58:34,837 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-66
+2021-01-14 12:58:34,838 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-65
+2021-01-14 12:58:34,838 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-65
+2021-01-14 12:58:34,838 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-64
+2021-01-14 12:58:34,838 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-64
+2021-01-14 12:58:34,838 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-6
+2021-01-14 12:58:34,839 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-6
+2021-01-14 12:58:35,015 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-63
+2021-01-14 12:58:35,015 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-63
+2021-01-14 12:58:35,015 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-5
+2021-01-14 12:58:35,015 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-5
+2021-01-14 12:58:35,015 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-62
+2021-01-14 12:58:35,016 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-62
+2021-01-14 12:58:35,016 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-61
+2021-01-14 12:58:35,016 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-61
+2021-01-14 12:58:35,073 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-60
+2021-01-14 12:58:35,073 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-60
+2021-01-14 12:58:35,078 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-4
+2021-01-14 12:58:35,078 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-4
+2021-01-14 12:58:35,238 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-59
+2021-01-14 12:58:35,239 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-59
+2021-01-14 12:58:35,241 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-3
+2021-01-14 12:58:35,242 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-3
+2021-01-14 12:58:35,579 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-58
+2021-01-14 12:58:35,579 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-58
+2021-01-14 12:58:35,579 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-57
+2021-01-14 12:58:35,579 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-57
+2021-01-14 12:58:35,584 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-2
+2021-01-14 12:58:35,584 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-2
+2021-01-14 12:58:35,612 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-1
+2021-01-14 12:58:35,612 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-1
+2021-01-14 12:58:37,078 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-56
+2021-01-14 12:58:37,079 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-56
+2021-01-14 12:58:37,079 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-55
+2021-01-14 12:58:37,079 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-55
+2021-01-14 12:58:37,079 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-54
+2021-01-14 12:58:37,079 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-54
+2021-01-14 12:58:37,080 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-53
+2021-01-14 12:58:37,080 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-53
+2021-01-14 12:58:37,082 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-100
+2021-01-14 12:58:37,082 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-100
+2021-01-14 12:58:37,086 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-52
+2021-01-14 12:58:37,086 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-52
+2021-01-14 12:58:37,087 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-51
+2021-01-14 12:58:37,087 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-51
+2021-01-14 12:58:37,087 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-50
+2021-01-14 12:58:37,087 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-50
+2021-01-14 12:58:37,088 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-49
+2021-01-14 12:58:37,088 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-49
+2021-01-14 12:58:37,088 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-48
+2021-01-14 12:58:37,088 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-48
+2021-01-14 12:58:37,089 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-47
+2021-01-14 12:58:37,089 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-47
+2021-01-14 12:58:37,089 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-46
+2021-01-14 12:58:37,089 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-46
+2021-01-14 12:58:37,090 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-45
+2021-01-14 12:58:37,090 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-45
+2021-01-14 12:58:37,090 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-44
+2021-01-14 12:58:37,091 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-44
+2021-01-14 12:58:37,091 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-43
+2021-01-14 12:58:37,091 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-43
+2021-01-14 12:58:37,092 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-42
+2021-01-14 12:58:37,092 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-42
+2021-01-14 12:58:37,092 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-41
+2021-01-14 12:58:37,092 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-41
+2021-01-14 12:58:37,454 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-99
+2021-01-14 12:58:37,454 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-99
+2021-01-14 12:58:37,784 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-98
+2021-01-14 12:58:37,784 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-98
+2021-01-14 12:58:38,107 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-97
+2021-01-14 12:58:38,107 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-97
+2021-01-14 12:58:38,445 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-96
+2021-01-14 12:58:38,445 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-96
+2021-01-14 12:58:38,606 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-95
+2021-01-14 12:58:38,606 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-95
+2021-01-14 12:58:38,721 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-94
+2021-01-14 12:58:38,721 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-94
+2021-01-14 12:58:38,758 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-93
+2021-01-14 12:58:38,758 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-93
+2021-01-14 12:58:38,785 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-91
+2021-01-14 12:58:38,785 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-91
+2021-01-14 12:58:38,816 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Test 1-92
+2021-01-14 12:58:38,816 INFO o.a.j.t.JMeterThread: Thread finished: Load Test 1-92
+2021-01-14 12:58:38,816 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-01-14 12:58:38,817 INFO o.a.j.r.Summariser: summary +     70 in 00:00:09 =    8.1/s Avg: 23019 Min: 15861 Max: 28590 Err:     0 (0.00%) Active: 0 Started: 100 Finished: 100
+2021-01-14 12:58:38,817 INFO o.a.j.r.Summariser: summary =    170 in 00:00:42 =    4.0/s Avg: 17553 Min:  2968 Max: 28590 Err:     0 (0.00%)
+2021-01-14 12:58:38,817 INFO o.a.j.JMeter: Generating Dashboard
+2021-01-14 12:58:38,818 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2021-01-14 12:58:38,825 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2021-01-14 12:58:38,901 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2021-01-14 12:58:38,901 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2021-01-14 12:58:38,902 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2021-01-14 12:58:38,902 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2021-01-14 12:58:38,905 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2021-01-14 12:58:38,906 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2021-01-14 12:58:38,906 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2021-01-14 12:58:38,906 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2021-01-14 12:58:38,912 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2021-01-14 12:58:38,913 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2021-01-14 12:58:38,913 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2021-01-14 12:58:38,913 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2021-01-14 12:58:38,916 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2021-01-14 12:58:38,917 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 1190 samples
+2021-01-14 12:58:38,917 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2021-01-14 12:58:38,917 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2021-01-14 12:58:38,917 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2021-01-14 12:58:38,917 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2021-01-14 12:58:38,917 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2021-01-14 12:58:38,917 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2021-01-14 12:58:38,918 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2021-01-14 12:58:38,918 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2021-01-14 12:58:38,919 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2021-01-14 12:58:38,919 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2021-01-14 12:58:38,919 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 2550 samples
+2021-01-14 12:58:38,919 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 510 samples
+2021-01-14 12:58:38,919 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 170 samples
+2021-01-14 12:58:38,919 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 170 samples produced in 80ms on channel 0
+2021-01-14 12:58:38,919 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2021-01-14 12:58:38,990 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2021-01-14 12:58:38,990 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2021-01-14 12:58:38,990 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2021-01-14 12:58:38,991 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2021-01-14 12:58:38,991 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\malik\Desktop\Work\jmeterTest\HTML_Reports\statistics.json
+2021-01-14 12:58:39,014 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2021-01-14 12:58:39,015 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\malik\Desktop\Work\jmeterTest\HTML_Reports
+2021-01-14 12:58:39,071 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\malik\Desktop\Work\jmeterTest\HTML_Reports, creating folder structure
+2021-01-14 12:58:39,073 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'D:\applications\apache-jmeter-5.4\bin\report-template' to 'C:\Users\malik\Desktop\Work\jmeterTest\HTML_Reports', got message: C:\Users\malik\Desktop\Work\jmeterTest\HTML_Reports, found non empty folder with following content [C:\Users\malik\Desktop\Work\jmeterTest\HTML_Reports\statistics.json], will be ignored
+2021-01-14 12:58:39,298 INFO o.a.j.JMeter: Dashboard generated
